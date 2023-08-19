@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feane</title>
+    <link rel="shortcut icon" type="x-icon" href="cutlery_753839.png"> <!-- icon title -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap" rel="stylesheet">
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- //////////////////////////////////////////////navstart///////////////////////////////////////////////////////////////////// -->
+<nav class="navbar navbar-expand-lg bg-light sticky-top" >
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="" width="170" height="30">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto ">
+      <li class="nav-item active">
+        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Servive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </a>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item " href="#">Burger</a></li>
+          <li><a class="dropdown-item" href="#">Pizza</a></li>
+          <li><a class="dropdown-item" href="#">Steak</a></li>
+          <li><a class="dropdown-item" href="#">Noodles</a></li>
+          <li><a class="dropdown-item" href="#">Drinks</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Other</a></li>
+        </ul>
+      </li>
+    </ul>
+    <form class="d-flex" role="search">
+      <input class="form-control w-100 h-100 me-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+    <button class="btn btu btt mx-2 "><a href="">Order Online</a></button>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btu btt1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Login
+</button>
+<!-- Modal -->
+<div class="modal fade mt-4" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="form-outline ml-auto px-5 py-1">
+        <label class="form-label" for="typeEmail">Email</label>
+        <input type="email" id="typeEmail" class="form-control" placeholder="Enter Your Email" />
+      </div>
+      <div class="form-outline ml-auto px-5 py-1">
+        <label class="form-label" for="typeEmail">Username</label>
+        <input type="email" id="typeEmail" class="form-control" placeholder="Enter Your Name" />
+      </div>
+          <div class="form-outline ml-auto px-5 pb-3">
+            <label class="form-label" for="typePassword">Password</label>
+            <input type="password" id="typePassword" class="form-control" placeholder="Enter Your Password" />
+            <div class="form-check form-switch py-3">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+            </div>
+      <div class="modal-footer px-3 ">
+        <button type="button" class="btn log">Login</button>
+        <button type="button " class="btn close bg-light " data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</nav>
+<!-- /////////////////////////////////////////////////////////////EndStart///////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////StartCarousel///////////////////////////////////////////////////// -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="container-fluid icon ">
+    <h1><i class="fab fa-facebook-square facebook  py-3"></i></h1>
+    <h1><i class="fab fa-instagram-square insta  py-3"></i></h1>
+     <h1><i class="fab fa-youtube you  py-3"></i></h1>
+ </div>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/background.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block">
+        <h2 class="titlee fs-7"> Deliciousness into the mouth</h2>
+        <p class="para d-none  d-md-block">Doloremque, itaque aperiam facilis rerum, commodi Tempora ex doloremque.</p>
+        <button class="learn-btn">Learn More</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/backgroun new.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption py-4 px-3 d-md-block">
+        <h2 class="titlee"> Deliciousness into the mouth</h2>
+        <p class="para d-none d-md-block">Doloremque, itaque aperiam facilis rerum, commodi Tempora ex doloremque.</p>
+        <button class="learn-btn">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ <!-- /////////////////////////////////////////////////////////////EndCarousel///////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////StartSection///////////////////////////////////////////////////// -->
+<div class="container-fluid info text-center mt-4 my-4 ">
+  <h1 class="display-5 fw-4">We Are Feane</h1>
+  <p class="display-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+  <button class="btn btu btt" style="margin-right: 30px;"><a href="#">Learn More</a></button>
+</div> 
+<br>
+<br>
+<br>
+<!-- /////////////////////////////////////////////////////////////EndSection///////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////StatSection2///////////////////////////////////////////////////// -->
+<div class="container-fluid categories  mt-4 my-4 ">
+  <h1 class=" text-center">Our Categories</h1>
+  <div class="container line2 "></div>
+</div>
+<div class="accordion pb-4" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Burger
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Burned pizza</strong> &nbsp; &nbsp;<strong>Burned pizza</strong> &nbsp;
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Pizza
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse pb-" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Pizza.</strong> &nbsp;&nbsp;<strong>Burned Heart</strong> &nbsp;&nbsp;<strong>Burned Heart</strong> 
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- /////////////////////////////////////////////////////////////EndSection2///////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////Startsectio3///////////////////////////////////////////////////// -->
+<div class="container ">
+  <h1 class="text-center ready ">Are You Ready!!</h1>
+  <div class="container line "></div>
+ <div class="row advertise-row">
+  <div class="col-md-6 col-12 d-flex justify-content-center">
+    <div class="card add" >
+      <div class="card advertise-img w-100 " >
+        <img src="images/wanna.png" alt="" class="radius">
+    </div>
+  </div>
+  </div>
+  <div class="col-md-6 col-12 d-flex justify-content-center">
+    <div class="card add" >
+      <div class="card-body advertise-body">
+       <h1 class="card-title  advertise-title">Wanna eat hot & <span class="color">spicy Pizza</span></h1>
+        <p class="card-text  advertise-text py-3 fs-7">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.<br>Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+        <button class="btn btu btt "><a href="">Proceed Now</a></button>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+<br>
+<!-- /////////////////////////////////////////////////////////////Endsectio3///////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////StartMenu////////////////////////////////////////////////////// -->
+<div class="container py-5">
+  <h1 class="text-center">Our Menu </h1>
+  <div class="container line"></div>
+  <div class="row row-cols-1 row-cols-md-3  g-4 py-5">
+    <div class="col">
+      <div class="card info" >
+        <img src="images/img1.png" class="card-img-top" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious pizza</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <img src="images/img9.png" class="card-img-top" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious pizza </h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <img src="images/img3.png" class="card-img-top" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Pizza </h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <img src="images/img4.png" class="card-img-top img4" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Pasta</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <img src="images/img5.png" class="card-img-top img5" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Fried</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <img src="images/img6.png" class="card-img-top img6" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Burger</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <span class="badge bg-success">New</span>
+        <img src="images/img7.png" class="card-img-top img7" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Burger</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <span class="badge bg-success">New</span>
+        <img src="images/img8.png" class="card-img-top img8" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Pasta</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <span class="badge bg-success">New</span>
+        <img src="images/img9.png" class="card-img-top img9">
+        <div class="card-body">
+          <h2 class="card-title text-center">Delicious Pizza</h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////////////EndMenu////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////StartAttachment/////////////////////////////////////////////// -->
+<div class="container-fluid attachment">
+</div>
+<!-- ////////////////////////////////////////////////////////////StartAttachment/////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////Start Hot Offers////////////////////////////////////////////// -->
+<div class="container py-5">
+  <h1 class="text-center">Hot Offers </h1>
+  <div class="container line"></div>
+  <div class="row row-cols-1 row-cols-md-3  g-4 py-5">
+    <div class="col">
+      <div class="card info" >
+        <span class="badge bg-success">25% off</span>
+        <img src="images/offer3.png" class="card-img-top this w-100" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Family Meal </h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3>262$</h3> <h3 class="discount">350$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <span class="badge bg-success">10% Off</span>
+        <img src="images/offer55.png" class="card-img-top this w-100" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Kids Meal </h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>180$</h3> <h3 class="discount">200$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card info" >
+        <span class="badge bg-success">50% Off</span>
+        <img src="images/offer9.png" class="card-img-top this w-100" >
+        <div class="card-body">
+          <h2 class="card-title text-center">Friends Offer </h2>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>120$</h3> <h3 class="discount">240$</h3>
+          <button class="btn btnn"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div></div>
+  <!-- ////////////////////////////////////////////////////////////End Hot Offers////////////////////////////////////////////// -->
+  <!-- ////////////////////////////////////////////////////////////Start Coupons/////////////////////////////////////////////// -->
+<div class="container-fluid bg-light">
+  <div class="mt-4 p-5 bg-light text-dark text-center rounded">
+    <h2>check for free Coupons</h2>
+  </div>
+  <h4>press <a class="here mt-3 " href="#">Here</a> to check available Coupons</h4>
+  <br>
+  <div class="input-group-append">
+    <!-- Button trigger modal -->
+<button type="button" class="btn bue btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+Copy
+</button>
+<!-- Modal -->
+<div class="modal fade mt-5" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        Copied Successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <br>
+  <br>
+  <div class="input-group ">
+    <input type="text " class="form-control coupons" placeholder="Enter Coupon" >
+    <div class="input-group-append">
+      <button class="btn  submit-button inpu-btn bg-warning" type="button">submit</button>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+  <!-- ////////////////////////////////////////////////////////////End Coupons/////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////Start Best Deals////////////////////////////////////////// -->
+<div class="container mt-5">
+  <div class="col">
+    <div class="card blogg border">
+        <div class="row g-0">
+          <div class="col-md-4 col-sm-12 blog-img blog-img2  ">
+            <img src="images/food-banner-144.jpg" 
+                class="img-fluid rounded-end w-100 " >
+        </div>
+        <div class="col-md-8 col-sm-12 col-12 ">
+          <div class="card-body mt-5 ml-5 " >
+              <h2 class=" card-title fw-bolder ">Best deals Crispy Sandwiches</h2>
+              <div class="section2-line1"></div>
+              <h6 class="fw-bolder"><i class="far fa-calendar-check mt-1"></i> &nbsp;Feb 1 2020</h6>
+              <p class="fw-medium fs-5 mb-4">
+                Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.
+              </p>
+              <h6 class="card-footer-icons">
+                <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-utensils"></i>  Meal</span>
+                <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-wine-glass"></i>  Drink</span>
+                  <span class="p-2  rounded"><i class="fa-solid fa-clock blog-icon"></i>  45 min</span><br>
+                  <button class="learn-btn blog-btn mt-5">Learn More</button> 
+              </h6>
+          </div>
+      </div>
+        </div>
+ </div>
+</div>
+</div>
+<div class="container mt-5">
+  <div class="col">
+    <div class="card blogg border" >
+        <div class="row g-0">
+          
+            <div class="col-md-8 col-sm-12 col-12 order-text">
+                <div class="card-body mt-5 ml-5 " >
+                    <h2 class=" card-title fw-bolder ">Best deals With Pizza</h2>
+                    <div class="section2-line1"></div>
+                    <h6 class="fw-bolder"><i class="far fa-calendar-check mt-1"></i> &nbsp;nov 11 2020</h6>
+                    <p class="fw-medium fs-5 mb-4">
+                      Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.
+                    </p>
+                    <h6 class="card-footer-icons">
+                      <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-utensils"></i>  Meal</span>
+                      <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-wine-glass"></i>  Drink</span>
+                        <span class="p-2  rounded"><i class="fa-solid fa-clock blog-icon"></i>  45 min</span><br>
+                        <button class="learn-btn  blog-btn mt-5">Learn More</button> 
+                    </h6>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 blog-img ">
+              <img src="images/banner1.jpg" class="img-fluid rounded-start w-100 order-text " >
+          </div>
+        </div>
+ </div>
+</div>
+</div>
+<div class="container mt-5">
+  <div class="col">
+    <div class="card blogg border">
+        <div class="row g-0">
+          <div class="col-md-4 col-sm-12 blog-img blog-img2  ">
+            <img src="images/food-banner-144.jpg" 
+                class="img-fluid rounded-end w-100 " >
+        </div>
+        <div class="col-md-8 col-sm-12 col-12 ">
+          <div class="card-body mt-5 ml-5 " >
+              <h2 class=" card-title fw-bolder ">fried Cheicken</h2>
+              <div class="section2-line1"></div>
+              <h6 class="fw-bolder"><i class="far fa-calendar-check mt-1"></i> &nbsp;Jan 1 2023</h6>
+              <p class="fw-medium fs-5 mb-4">
+                Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.
+              </p>
+              <h6 class="card-footer-icons">
+                <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-utensils"></i>  Meal</span>
+                <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-wine-glass"></i>  Drink</span>
+                  <span class="p-2  rounded"><i class="fa-solid fa-clock blog-icon"></i>  45 min</span><br>
+                  <button class="learn-btn blog-btn mt-5">Learn More</button> 
+              </h6>
+          </div>
+      </div>
+        </div>
+ </div>
+</div>
+</div>
+<div class="container mt-5">
+  <div class="col">
+    <div class="card blogg border" >
+        <div class="row g-0">
+          
+            <div class="col-md-8 col-sm-12 col-12 order-text">
+                <div class="card-body mt-5 ml-5 " >
+                    <h2 class=" card-title fw-bolder ">Best deals With Drinks</h2>
+                    <div class="section2-line1"></div>
+                    <h6 class="fw-bolder"><i class="far fa-calendar-check mt-1"></i> &nbsp;sep 1 2023</h6>
+                    <p class="fw-medium fs-5 mb-4">
+                      Enjoy the iced and Hot Drinks.
+                    </p>
+                    <h6 class="card-footer-icons">
+                      <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-utensils"></i>  Meal</span>
+                      <span class="p-2 rounded d-none d-md-inline"><i class="fas fa-wine-glass"></i>  Drink</span>
+                        <span class="p-2  rounded"><i class="fa-solid fa-clock blog-icon"></i>  45 min</span><br>
+                        <button class="learn-btn  blog-btn mt-5">Learn More</button> 
+                    </h6>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 blog-img ">
+              <img src="images/blue-lagoon-sangria-lemonade-glasses-inside-ice-tray.jpg" class="img-fluid rounded-start w-100 order-text " >
+          </div>
+        </div>
+ </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- //////////////////////////////////////////////////////////////End Best Deals////////////////////////////////////////// -->
+  <!-- ///////////////////////////////////////////////////////////Start Book Table///////////////////////////////////////// -->
+  <div class="container ">
+    <h1 class="book-title mb-5">Book A Table</h1>
+   <div class="row book-row">
+    <div class="col-md-6 col-12 justify-content-center">
+      <div class="card book" >
+        <div class="card-body book-body ">
+          <form action="" class="formm my-3">
+            <div>
+              <input type="text" class="form-control" placeholder="Your Name" />
+            </div>
+            <div>
+              <input type="text" class="form-control" placeholder="Phone Number" />
+            </div>
+            <div>
+              <input type="email" class="form-control" placeholder="Your Email" />
+            </div>
+            <div>
+              <select class="form-control nice-select wide">
+                <option value="" disabled selected>
+                  How many persons?
+                </option>
+                <option value="">
+                  2
+                </option>
+                <option value="">
+                  3
+                </option>
+                <option value="">
+                  4
+                </option>
+                <option value="">
+                  5
+                </option>
+                <option value="">
+                  6
+                </option>
+                <option value="">
+                  7
+                </option>
+                <option value="">
+                  8
+                </option>
+              </select>
+            </div>
+            <div>
+              <input type="date" class="form-control">
+            </div>
+          </form>
+          <button class="btn-book "><a href="">Learn More</a></button>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-6 col-12 d-flex justify-content-center">
+        <div class="card book">
+          <div class="card book-img w-100 mb-3" >
+            <img src="images/fix.jpg" alt="">
+                  </div>
+      </div>
+      </div>
+      </div>
+    </div>
+   </div>
+  </div>
+  <br>
+  <br>
+  <br>
+    <!-- ///////////////////////////////////////////////////////////End Book Table///////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////////////////////First attachment2///////////////////////////////////// -->
+  <div class="container-fluid attachment2 text-center">
+    <div class="container-fluid info  mt-4 my-4 img-words ">
+      <h1 class="display-5 fw-4">We Are Feane</h1>
+      <p class="display-8 p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+      <button class="learn-btn">Learn More</button>
+    </div> 
+  </div>
+  <!-- /////////////////////////////////////////////////////////////Second attachment2//////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////Start Our Restaurant////////////////////////////////// -->
+<div class="container">
+  <div class="row advertise-row">
+   <div class="col-md-6 col-12 d-flex justify-content-center">
+     <div class="card add" >
+       <div class="card advertise-img w-100 " >
+         <img src="images/atach.jpeg" alt="" class="radius">
+     </div>
+   </div>
+   </div>
+   <div class="col-md-6 col-12 d-flex justify-content-center">
+     <div class="card add add-our" >
+       <div class="card-body our-body mt-3">
+        <p class="card-title Our-title"> Our Restaurant</p>
+        <div class="linee"></div>
+         <p class="card-text  advertise-text py-3 fs-7">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.<br>Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+         <p class="award">Award Chefs</p>
+         <p class="card-text  advertise-text py-3 fs-7">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.<br>Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+       </div>
+     </div>
+   </div>
+  </div>
+ </div>
+ <br>
+ <!-- ///////////////////////////////////////////////////////////////End Our Restaurant////////////////////////////////// -->
+  <!-- //////////////////////////////////////////////////////////////Start Our Team////////////////////////////////////// -->
+  <div class="container">
+    <h1 class="team text-center">Our Team</h1>
+    <div class="container line"></div>
+    <div class="row row-cols-1 row-cols-md-3   g-4 py-5">
+      <div class="d-flex justify-content-around mb-5">
+        <div class="card card-back card-background1 m-2 cb1 text-center" style="width: 25rem; ">
+          <div class="card-body team-body">
+            <span class="card-number">01</span>
+            <h3 class="card-title team-title m-4">Moana Michell</h3>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class=" team-img team-img1"></div>
+            <h4 class="p-team mt-4">Thank You</h4>
+          </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-around mb-5">
+      <div class="card card-back card-background2 m-2 cb1 text-center" style="width: 25rem;">
+        <div class="card-body team-body">
+          <span class="card-number">02</span>
+          <h3 class="card-title team-title m-4 ">Mike Hamele</h3>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <div class=" team-img team-img2"></div>
+          <h4 class="p-team mt-4">Thank You</h4>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-around mb-5">
+      <div class="card card-back card-background3 m-2 cb1 text-center" style="width: 25rem;">
+        <div class="card-body  team-body">
+          <span class="card-number">03</span>
+          <h3 class="card-title team-title m-4"> charis Albert</h3>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <div class="team-img team-img3"></div>
+          <h4 class="p-team mt-4">Thank You</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- ////////////////////////////////////////////////////////////End Our Team////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////Start Join Links////////////////////////////////// -->
+<section class="group-join">
+  <div class="container d-flex justify-content-around p-5">
+  <div class="row mr-3">
+    <div class="col-6 col-sm-6  col-md-6 col-lg-4 col-xl-3  ">
+        <img class="join-links" src="images/alexander-shatov-71Qk8ODIBko-unsplash-removebg-preview.png" style="width: 10rem;">
+        </div>
+  <div class="col-6 col-sm-6  col-md-6 col-lg-4 col-xl-3 ">
+    <img class="join-links"  src="images/alexander-shatov-_qsuER9xYOY-unsplash-removebg-preview.png" style="width: 10rem;">
+        
+    </div>
+  <div class="col-6 col-sm-6  col-md-6 col-lg-4 col-xl-3 ">
+    <img class="join-links"  src="images/alexander-shatov-k1xf2D7jWUs-unsplash-removebg-preview.png" style="width: 10rem;">
+    </div>
+    <div class="col-6 col-sm-6  col-md-6 col-lg-4 col-xl-3 ">
+      <img class="join-links"  src="images/alexander-shatov-niUkImZcSP8-unsplash-removebg-preview.png" style="width: 10rem;">
+      </div>
+    </div>
+   </div>
+  </div>
+</section> 
+<!-- /////////////////////////////////////////////////////////////End Join Links////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////Start Footer////////////////////////////////////////// -->
+  <footer
+          class="text-center  text-lg-start text-white"
+          style="background-color: #000000"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h1 class="text-uppercase mb-4 font-weight-bold">
+              Feane
+            </h1>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority.There are many variations of passages of Lorem Ipsum available, but the majority 
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a class="text-white">MDWordPress</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Help</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Sohag, 15 St, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> Feane@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 0123456789</p>
+          </div>
+        </div>
+      </section>
+      <hr class="my-3">
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2020 Copyright:
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+ <!-- ///////////////////////////////////////////////////////////End Footer////////////////////////////////////////// -->
+    <script src="js/script.js"></script>
+</body>
+</html>
